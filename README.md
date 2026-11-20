@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
 
 <!-- Banner principal -->
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0d1117,50:161b22,100:1f2937&text=LEONARDO%20GRACIA&fontSize=46&fontColor=58A6FF&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20DevOps%20Enthusiast&descAlignY=62&descSize=18&descColor=8b949e" width="100%" />
@@ -146,6 +146,41 @@ Mi trayectoria comenzó construyendo aplicaciones con Python, C++, C# y SQL. Act
 ## 📦 Featured Projects
 
 <table width="100%">
+<tr>
+<td colspan="2" valign="top">
+
+### 🎮 JuegosPros — Portal de juegos online
+
+<div align="center">
+
+<a href="https://juegospros.com/">
+<img src="https://leonardogracia.com/assets/img/projects/juegospros/version-publicada.jpg" width="600" alt="Captura del catálogo de juegos HTML5 de JuegosPros" />
+</a>
+
+</div>
+
+Proyecto personal que desarrollé con ayuda de IA para jugar gratis desde el navegador, sin crear una cuenta. El portal usa React y Vite, con un catálogo modular en JSON que permite buscar juegos, filtrar por categoría y marcar favoritos. También desarrollé un prototipo local de emulación NES y SNES para probar la integración de juegos retro.
+
+Uso Docker Compose en WSL para las pruebas. En producción, publico el build en Amazon S3 mediante AWS CLI y lo distribuyo por HTTPS con CloudFront. El DNS del dominio se gestiona en Cloudflare.
+
+Planeo ampliar el catálogo con juegos HTML5 creados desde cero y juegos de la comunidad cuyas licencias permitan publicarlos. La integración con Google AdSense está prevista para una fase posterior.
+
+**Tecnologías**
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,vite,js,html,css,docker,aws,cloudflare&perline=4&theme=dark" alt="React, Vite, JavaScript, HTML, CSS, Docker, AWS y Cloudflare" />
+
+</div>
+
+`React` `Vite` `HTML5` `Docker Compose` `Amazon S3` `CloudFront` `AWS CLI` `Cloudflare DNS`
+
+<a href="https://juegospros.com/">
+<img src="https://img.shields.io/badge/Ir%20a%20la%20p%C3%A1gina-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ir a la página de JuegosPros" />
+</a>
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
